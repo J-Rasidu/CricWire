@@ -1,0 +1,420 @@
+/* ---------- NAV Bar Styling ---------- */
+
+* {
+	font-family: sans-serif;
+}
+#heading {
+	text-align: center;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button {
+	font-weight: 700;
+	font-size: 1em;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+header {
+	border:3px inset red;
+	border-radius:5px;
+	
+	background-image: url("../F5_Images/BG1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.875em 10%;
+	
+	 
+}
+
+.navpages {
+	list-style: none;
+}
+
+.navpages li:last-of-type{
+	margin-right: 1em;
+	border-right: 0.25em solid white;
+	height: 1.375em; 
+}
+
+.navpages li{
+	display: inline-block;
+	padding: 0px 1.75em;
+	border-left: 0.25em solid white;
+	height: 1.375em;
+}
+
+.navpages li a {
+	transition: 0.3s ease 0s;
+}
+
+.navpages li a:hover {
+	color: #DF7104;
+}
+
+button {
+	padding: 0.5625em 1.5625em;
+	background-color: #444444;
+	border: none;
+	border-radius: 3.125em;
+	cursor: pointer;
+	transition: 0.3s ease 0s;
+	
+}
+
+button:hover {
+	color:#444444;
+	background-color: gray;
+}
+
+					/* < ----- Presentation Page Styling -----> */
+	
+body.presentationBody {
+	background-image:url("../F5_Images/CR5.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+/* ---------- Table Styling ---------- */
+			
+table, th {
+	border-collapse:collapse;
+	border:3px inset aqua;
+}
+
+th {
+	padding:15px;
+	font-family:Arial;
+	font-size:35px;
+}
+
+.GMembers {
+	color:#f44336;
+	-webkit-text-stroke:2.5px #990000;
+}
+
+.Names {
+	color:black;
+	-webkit-text-stroke:1px yellow;
+}
+
+.IDname {
+	color:black;
+	-webkit-text-stroke:0.5px white;
+}
+
+div.memberDetails {
+	margin-top:-8.625%;
+	margin-left:52%;
+}
+
+div.PD_Link {
+	margin-top:4%;
+	margin-left:2.55%;
+}
+
+					/* < -----  Buy Products Page Styling -----> */
+
+body.productBody {
+	font-weight:bold;
+	color:white;
+	background-color:black;
+	
+}
+
+.Products {
+	font-family:Arial;
+	color:white;
+}
+
+.addTo {
+	color:#DF7104;
+}
+
+#personal_D , #product_D {
+	font-size:20px;
+	font-family:Arial;
+	color:#DF7104;
+	padding:0.425%;
+}
+
+.personal_F , .product_F {
+	background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	border:none;
+	border-radius:10px;
+}
+
+.personal_F {
+	margin-top:2%;
+}
+
+/* ---------- Row 1 ---------- */
+
+div.ProductBag {
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4.25%;
+}
+
+div.ProductBat {
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	
+	margin-left:4%;
+}
+
+div.ProductHeadWears {
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+div.ProductBall {
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+/* ---------- Row 2 ---------- */
+
+div.ProductGloves {
+	clear:both;
+	margin-top:1.275%;
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4.25%;
+}
+
+div.ProductCloth {
+	margin-top:1.275%;
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:105px;
+	
+	margin-left:4%;
+}
+
+div.ProductPads {
+	margin-top:1.275%;
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:65px;
+	
+	margin-left:4%;
+}
+
+div.ProductStumps {
+	margin-top:1.275%;
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	border:2px solid white;
+	border-radius:10px;
+	float:left;
+	padding:6px;
+	padding-bottom:52px;
+	
+	margin-left:4%;
+}
+
+#total {
+	clear:both;
+	
+	text-align:center;
+	font-family:Arial;
+	font-size:20px;
+	color:#DF7104;
+	padding:12px;
+	margin-top:72.25%;
+	margin-left:37%;
+	margin-right:37%;
+	margin-bottom:-72.25%;
+}
+
+/* ---------- Bottom Bar Styling ---------- */
+
+div.BottomBar {
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	border-radius:10px;
+	
+	margin-left:4.25%;
+	margin-right:4.75%;
+}
+
+div.PD {
+	margin-top:1.295%;
+	margin-left:1.295%;
+	margin-right:51%;
+	
+	float:left;
+}
+
+div.PlaceOrder {
+	margin-top:78%;
+	margin-bottom:0.85%;
+	margin-left:76.8%;
+	padding:10px;
+}
+
+/* ---------- Place Order Button Styling ---------- */
+
+.PO_Button {
+	color:#DF7104;
+	background-color:black;
+	font-weight:bold;
+	font-size:15px;
+	
+	padding:7px;
+	margin-left:8.5%;
+	
+	border-radius:10px;
+	border-color:#DF7104;
+}
+
+.PO_Button:hover {
+	background-color:#474747;
+}
+
+/* ---------- Invoice Styling ---------- */
+
+#invoice {
+	border:2px solid gray;
+	font-size:18px;
+	
+	background-image:url("../F5_Images/BG1.jpg");
+	color:#afaead;
+	
+	margin-top:0.925%;
+	margin-left:4.25%;
+	margin-right:4.6%;
+	padding-left:25px;
+	padding-bottom:0.25%;
+}
+
+p.invoiceHeader {
+	color:#DF7104;
+	font-size:35px;
+}
+
+p.invoicePersonal {
+	color:#bcbcbc;
+	font-size:20px;
+}
+
+p.invoiceDetailHeader {
+	font-size:25px;
+}
+
+p.productTitle {
+	color:#DF7104;
+}
+
+p.totalBill {
+	color:#DF7104;
+	font-size:25px;
+}
+
+
+
+/* ---------- Page Developer link Styling ---------- */
+			
+a.pageDeveloperLink:link {
+	border:2px solid black;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:4px;
+}
+
+a.pageDeveloperLink:visited {
+	color:white;
+}
+
+a.pageDeveloperLink:hover {
+	background-color:#474747;
+}
+
+a.pageDeveloperLink:active {
+	color:yellow;
+}
+
+/* ---------- Back to top Styling ---------- */
+
+a.back_Top:link {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#DF7104;
+	text-decoration:none;
+	
+	padding-left:15px;
+}
+
+a.back_Top:visited {
+	color:#DF7104;
+}
+
+a.back_Top:hover {
+	color:yellow;
+}

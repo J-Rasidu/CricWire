@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="F5_S2.css">
+        <title>Query Form</title>
+        <script defer src="queryform.js"></script>
+    </head>
+
+    <body class="queryBody">
+
+        <header> <!-- Nav bar part -->
+            <img src="../F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+            <nav>
+                <ul class="navpages">
+                    <li><a href="../Lakshan (Student2)/mainPage.html">Home</a></li>
+                    <li><a href="../Rasidu (Student1)/buyProduct.html">Products</a></li>
+                    <li><a href="#">Form</a></li>
+                    <li><a href="../Rashid (Student3)/quiz.html">Quiz</a></li>
+                    <li><a href="../Yusuf (Student4)/SVG.html">SVG</a></li>
+                    <li><a href="../Yusuf (Student4)/thumbnail.html">Thumbnails</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Rashid (Student3)/img.html"><button>Students</button></a>
+        </header>
+
+        <br><br><br>
+
+        <div id="container"> <!-- Div for the main form-->
+            <h2 id="heading">Query Form</h2>
+            <br>
+            <div id="formdiv">
+                <form id="form" method="POST"> <!-- Form action was separatly added in the java script-->
+                    <div>
+                        <label for="name">Name: </label>
+                        <input id="name" name="name" type="text" placeholder="Gotabaya Rajapaksa">
+                    </div>
+                    <br>
+                    <div>
+                        <label for="email">Email: </label>
+                        <input id="email" name="email" type="text" placeholder="example@email.com"> <!-- not done with java script-->
+                    </div>
+                    <br>
+                    <div>
+                        <label for="Delivery">Delivery</label> <!-- Radio buttons-->
+                        <input type="radio" id="Delivery" name="subject" checked>
+                        <label for="Product">Product</label> <!-- change this-->
+                        <input type="radio" id="Product" name="subject">
+                        <label for="Payment">Payment</label>
+                        <input type="radio" id="Payment" name="subject">
+        
+                    </div>
+                    <br>
+                    <div>
+                        <textarea id="details" name="details" rows="5" cols="90" placeholder="Hi, I would like to know how long it would take to deliver the products."></textarea>
+                    </div>
+                    <br>
+                    <input type="submit" id="formbutton" value="Send" onclick="validateForm();"> <!-- submit button-->
+                    <br>
+            
+                
+                </form>
+                <br>
+                <button id="formbuttoncheck" onclick=validateFormcheck();>View Query</button>
+                <br>
+            </div>
+        </div>
+            
+        <div id="for_replacement"> <!-- Div for the Display form-->
+        
+            <div id="display_replacment" style="display: none;">
+                <form id="edit">
+                
+                    <label for="name_submit">Name: </label><span id="name"></span>
+                    <span id="display_name"></span><br><br>
+    
+                    <label for="email_submit">Email: </label><span id="email"></span>
+                    <span id="display_email"></span><br><br>
+    
+                    <label for="subject_submit">Subject: </label>
+                    <span id="display_subject"></span><br><br>
+    
+                    <label for="details_submit">Details: </label>
+                    <span id="display_details"></span><br><br>
+
+                    <input type="button" value="Edit" id="formbutton" onclick="editForm()" /> <!-- View Query button-->
+                </form>
+            </div>
+        </div> 
+			
+		<div id="creator"> <!-- Page developer button-->
+			<h3><a href="creator.html" class="pageDeveloperLink">Page Developer</a></h3>
+		</div>
+    </body>
+</html>

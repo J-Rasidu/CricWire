@@ -1,0 +1,261 @@
+/* ---------- NAV Bar Styling ---------- */
+
+* {
+	font-family: sans-serif;
+}
+#heading {
+	text-align: center;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button {
+	font-weight: 700;
+	font-size: 1em;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+header {
+	border:3px inset red;
+	border-radius:5px;
+	
+	background-image: url("../F5_Images/BG1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.875em 10%;
+	
+	 
+}
+
+.navpages {
+	list-style: none;
+}
+
+.navpages li:last-of-type{
+	margin-right: 1em;
+	border-right: 0.25em solid white;
+	height: 1.375em; 
+}
+
+.navpages li{
+	display: inline-block;
+	padding: 0px 1.75em;
+	border-left: 0.25em solid white;
+	height: 1.375em;
+}
+
+.navpages li a {
+	transition: 0.3s ease 0s;
+}
+
+.navpages li a:hover {
+	color: #DF7104;
+}
+
+button {
+	padding: 0.5625em 1.5625em;
+	background-color: #444444;
+	border: none;
+	border-radius: 3.125em;
+	cursor: pointer;
+	transition: 0.3s ease 0s;
+	
+}
+
+button:hover {
+	color:#444444;
+	background-color: gray;
+}
+
+					/* < ----- SVG Styling -----> */
+
+body.svgBody {
+	background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+svg {
+	margin-top:0px;
+	margin-right:4%;
+	margin-left:4%;
+}
+
+text.products , text.quiz , text.SD , text.thumbnail , text.query , text.content , text.home {
+	fill:#f6ae44;
+	font-weight:bold;
+	font-family:Arial;
+}
+
+#group1A:hover circle , #group1A:hover text , #group3A:hover circle , #group3A:hover text , #group5A:hover circle , #group5A:hover text {
+	stroke:#fd7524;
+	transition:1.75s;
+	transform:scale(0.95);
+}
+
+#group2A:hover circle , #group2A:hover text  , #group4A:hover circle , #group4A:hover text , #group6A:hover circle , #group6A:hover text {
+	stroke:#fd7524;
+	transition:1.75s;
+	transform:scale(1.05);
+}
+
+#group1:hover circle , #group2:hover circle , #group3:hover circle , #group4:hover circle , #group5:hover circle , #group6:hover circle {
+	fill:#444444;
+}
+
+#group7:hover rect , #group7:hover text {
+	stroke:#fd7524;
+	fill:white;
+}
+
+div.titleSVG {
+	font-family:Arial;
+	font-size:20px;
+	text-align:center;
+	color:#fd7524;
+	
+	margin-top:-50%;
+	margin-left:5%;
+	margin-right:75%;
+}
+
+div.sectSVG {
+	margin-left:0.25%;
+}
+
+img.logoSVG {
+	margin-top:-10%;
+	margin-left:87%;
+}
+
+div.yusufPage {
+	margin-top:37%;
+	margin-left:5%;
+}
+
+
+					/* < ----- Thumbnail Styling -----> */
+					
+html.thumbnailHtml , body.thumbnailBody {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	background-color:#c3b9b9;
+	scroll-behavior: smooth;
+}
+
+div.card{
+	float: left;
+	background-color:white;
+	margin-left: 5%;
+	margin-top: 4%;
+	border-radius: 10px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	width:80%;
+	max-width:400px;
+	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+
+.details{
+	background-color: rgb(143, 133, 133);
+	display:none;
+	float: left;
+	width: 90%;
+	text-align: center;
+	position: relative;
+	margin-top: 5%;
+	margin-left: 5%;
+	box-shadow:0 10px 16px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+	border-radius: 10px;
+}
+
+#thumb{
+	right: auto;
+	left: auto;
+}
+
+.imagedet{
+	width: 600px;
+	height: 400px;
+}
+
+.inform{
+	margin-top: 4.5% ; 
+	margin-left:23%; 
+	margin-right: 30%;
+}
+
+.imagecard{
+	width:100%; 
+	height: 300px;
+}
+
+a.cardTitle {
+	color:black;
+}
+
+.thumbDev{
+	clear: both;
+	margin-left: 82%;
+	margin-top: 2%;
+
+}
+
+/* ---------- Page Developer link Styling ---------- */
+			
+a.pageDeveloperLink:link {
+	border:2px solid black;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:4px;
+}
+
+a.pageDeveloperLink:visited {
+	color:white;
+}
+
+a.pageDeveloperLink:hover {
+	background-color:#474747;
+}
+
+a.pageDeveloperLink:active {
+	color:yellow;
+}
+
+/* ---------- Back to top Styling ---------- */
+
+a.back_Top:link {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#DF7104;
+	text-decoration:none;
+	
+	padding-left:15px;
+}
+
+a.back_Top:visited {
+	color:#DF7104;
+}
+
+a.back_Top:hover {
+	color:yellow;
+}

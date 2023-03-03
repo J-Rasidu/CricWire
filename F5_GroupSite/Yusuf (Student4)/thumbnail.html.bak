@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html class="thumbnailHtml">
+  <head>
+	<title>Thumbnails</title>
+	<link rel="stylesheet" href="F5_S4.css">
+  
+    <script>
+      function backgroundclr(){
+          var bg = document.getElementById("selectbgid");
+          var bgcolor = bg.options[bg.selectedIndex].value;
+          document.body.style.backgroundColor=bgcolor;
+      }
+      function textclr(){
+          var txt = document.getElementById("selecttxtid");
+          var txtcolor = txt.options[txt.selectedIndex].value;
+          document.body.style.color=txtcolor;
+      }
+      function image1() {
+        var x = document.getElementById("details1");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+      } else {
+            x.style.display = "none";
+      }
+      }
+      function image2() {
+        var x = document.getElementById("details2");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+      } else {
+            x.style.display = "none";
+      }
+      }
+      function image3() {
+        var x = document.getElementById("details3");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+      } else {
+            x.style.display = "none";
+      }
+      }
+      function image4() {
+        var x = document.getElementById("details4");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+      } else {
+            x.style.display = "none";
+      }
+      }
+      function image5() {
+        var x = document.getElementById("details5");
+        if (x.style.display === "none") {
+            x.style.display = "block";
+      } else {
+            x.style.display = "none";
+      }
+      }
+
+      document.getElementById("card1").addEventListener("click",function(){
+        document.getElementById("card1").style.background="purple";
+      })
+    
+    </script>
+    
+  </head>
+  <body class="thumbnailBody">
+  
+	<header id="navHeaderThumbnail">
+		<img src="../F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+		<nav>
+			<ul class="navpages">
+				<li><a href="../Lakshan (Student2)/mainPage.html">Home</a></li>
+				<li><a href="../Rasidu (Student1)/buyProduct.html">Products</a></li>
+				<li><a href="../Lakshan (Student2)/queryForm.html">Form</a></li>
+				<li><a href="../Rashid (Student3)/quiz.html">Quiz</a></li>
+				<li><a href="../Yusuf (Student4)/SVG.html">SVG</a></li>
+				<li><a href="#">Thumbnails</a></li>
+			</ul>
+		</nav>
+		<a class="cta" href="../Rashid (Student3)/img.html"><button class="contactButton">Students</button></a>
+	</header>
+  
+    <form>
+    <div class="inform">
+      <select id="selectbgid">
+        <option value="" selected hidden disabled>--select background colour--</option>
+        <option>Black</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Yellow</option>
+        <option>Blue</option>
+      </select>
+      <select id="selecttxtid">
+        <option value="" selected hidden disabled>--select font colour--</option>
+        <option>Black</option>
+        <option>Red</option>
+        <option>Green</option>
+        <option>Yellow</option>
+        <option>Blue</option>
+      </select>
+	  <input type="button" value="Change the colours" onclick="backgroundclr();textclr();">
+      <!-- <button onclick="backgroundclr();textclr();">Change the colours</button> -->
+    
+    </div>
+    <div id="thumb">
+      <a href="#details1" class="cardTitle">
+      <div class="card" id="card1" onclick="image1()">
+        <img src="../F5_Images/ICCCricketWorldCup.jpg" alt="Cricket world cup"  class="imagecard">
+        <div class="cardcontainer" >
+          <p>ICC Cricket World Cup</p>
+        </div>
+      </div>
+      </a>
+      <a href="#details2" class="cardTitle">
+      <div class="card" id="card2" onclick="image2()">
+        <img src="../F5_Images/ICCChampionsTrophyofficialtrophy.jpg" alt="champions trophy" class="imagecard">
+        <div class="cardcontainer">
+          <p>	ICC Champions Trophy</p>
+        </div>
+      </div>
+      </a>
+      <a href="#details3" class="cardTitle">
+      <div class="card"  onclick="image3()">
+        <img src="../F5_Images/icct20worldcuptrophy.jpg" alt="T20 world cup" class="imagecard">
+        <div class="cardcontainer">
+          <p>	T20 World cup</p>
+        </div>
+      </div>
+    </a>
+      </a>
+      <a href="#details4" class="cardTitle">
+      <div class="card"  onclick="image4()">
+        <img src="../F5_Images/ashes.jpg" alt="Ashes" class="imagecard">
+        <div class="cardcontainer">
+          <p>	Ashes Series</p>
+        </div>
+      </div>
+      </a>
+      <a href="#details5" class="cardTitle">
+      <div class="card"  onclick=" image5()">
+        <img src="../F5_Images/ccl.jpg" alt="	Champions League" class="imagecard">
+        <div class="cardcontainer">
+          <p>	Champions League Twenty20</p>
+        </div>
+      </div>
+      </a>
+    </div>
+    <div id="details1" class="details" >
+      <img src="../F5_Images/ICCCricketWorldCup.jpg" class="imagedet">
+      <p>The ICC Cricket World Cup is the international championship of One Day International (ODI) cricket . The event is organised by the sport's governing body, the International Cricket Council (ICC), every four years, with preliminary qualification rounds leading up to a finals tournament. The tournament is one of the world's most viewed sporting events and is considered the "flagship event of the international cricket calendar" by the ICC.</p>
+    </div>
+    <div id="details2" class="details" >
+      <img src="../F5_Images/ICCChampionsTrophyofficialtrophy.jpg" class="imagedet">
+      <p>The ICC Champions Trophy was a One-Day International (ODI) cricket tournament organized by the International Cricket Council (ICC), second in importance only to the Cricket World Cup.It was inaugurated as the ICC KnockOut Tournament in 1998 and has been played approximately every four years since. Its name was changed to the Champions Trophy in 2002</p>
+    </div>
+    <div id="details3" class="details" >
+      <img src="../F5_Images/icct20worldcuptrophy.jpg" class="imagedet">
+      <p>	The ICC T20 World Cup (earlier known as ICC World Twenty20) is the international championship of Twenty20 International cricket. Organised by cricket's governing body, the International Cricket Council (ICC), the tournament currently consists of 16 teams, comprising the top ten teams from the rankings at the given deadline and six other teams chosen through the T20 World Cup Qualifier. All matches are played as Twenty20 Internationals.
+
+        The event has generally been held every two years.</p>
+    </div>
+    <div id="details4" class="details" >
+      <img src="../F5_Images/ashes.jpg" class="imagedet">
+      <p>	The Ashes is a Test cricket series played between England and Australia .If the test series is drawn, the team that currently holds the Ashes retains the trophy. The term originated in a satirical obituary published in a British newspaper, The Sporting Times , immediately after Australia's 1882 victory at The Oval , its first Test win on English soil. The obituary stated that English cricket had died, and "the body will be cremated and the ashes taken to Australia". The mythical ashes immediately became associated with the 1882–83 series played in Australia , before which the English captain Ivo Bligh had vowed to "regain those ashes". The English media therefore dubbed the tour the quest to regain the Ashes.</p>
+    </div>
+    <div id="details5" class="details" >
+      <img src="../F5_Images/ccl.jpg" class="imagedet">
+      <p>The Champions League Twenty20, also referred to as the CLT20, was an annual international Twenty20 Cricket competition played between the top domestic teams from major cricketing nations. The competition was launched in 2008 with the first edition held in October 2009. It was jointly owned by the BCCI, Cricket Australia and Cricket South Africa, and was chaired by N. Srinivasan, who was also the chairman of the ICC. Sundar Raman was the Chief Operating Officer (COO) of the CLT20 as well as the IPL.
+
+        The tournament was held between September and October for a period of two to three weeks in either India or South Africa. It had a total prize pool of US$6 million, with the winning team receiving $2.5 million, the highest for a club cricket tournament in history. The format involved the best teams from the premier Twenty20 competitions of eight Test-playing nations, favouring the teams from India, Australia and South Africa.</p>
+    </div>
+    
+    
+    <div class="thumbDev">
+      <h3><a href="profile.html" class="pageDeveloperLink">Page Developer</a></h3>
+    </div>
+	
+	<div>
+		<img id="arrowIcon" src="../F5_Images/arrow.png" alt="Arrow Image" width="20px" height="50px" style="float:left">
+		<br>
+		<a href="#navHeaderThumbnail" class="back_Top">BACK TO TOP</a>
+	</div>
+
+    </form>
+  </body>
+</html>

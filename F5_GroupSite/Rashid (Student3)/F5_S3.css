@@ -1,0 +1,378 @@
+/* ---------- NAV Bar Styling ---------- */
+
+* {
+	font-family: sans-serif;
+}
+#heading {
+	text-align: center;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button {
+	font-weight: 700;
+	font-size: 1em;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+header {
+	border:3px inset red;
+	border-radius:5px;
+	
+	background-image: url("../F5_Images/BG1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.875em 10%;
+	
+	 
+}
+
+.navpages {
+	list-style: none;
+}
+
+.navpages li:last-of-type{
+	margin-right: 1em;
+	border-right: 0.25em solid white;
+	height: 1.375em; 
+}
+
+.navpages li{
+	display: inline-block;
+	padding: 0px 1.75em;
+	border-left: 0.25em solid white;
+	height: 1.375em;
+}
+
+.navpages li a {
+	transition: 0.3s ease 0s;
+}
+
+.navpages li a:hover {
+	color: #DF7104;
+}
+
+button {
+	padding: 0.5625em 1.5625em;
+	background-color: #444444;
+	border: none;
+	border-radius: 3.125em;
+	cursor: pointer;
+	transition: 0.3s ease 0s;
+	
+}
+
+button:hover {
+	color:#444444;
+	background-color: gray;
+}
+
+					/* < ----- Quiz Styling -----> */
+
+body.quizBody {
+   
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0%;
+    background-color:black;
+    
+}
+
+
+
+#showtime{
+    position: fixed;
+    color: #ffffff;
+    font-size: medium;
+    width: 10%;
+    
+    padding: 30px;
+  
+    height:5%;
+    right:10px;
+    top: 200px;
+}
+#starttime{
+    position: fixed;
+    color: #ffffff;
+    font-size: medium;
+    width: 10%;
+    
+    padding: 30px;
+  
+    right: 10px;
+    height:5%;
+    top: 150px;
+}
+
+.incorrect{
+    color: #DE7104;
+    font-size: medium;
+    font-weight: bold;
+    
+    background-color:red;
+}
+
+.header{
+
+    text-align: center;
+    margin: 0px;
+    height: 75px;
+    padding: 10px;
+}
+
+
+.quistionair{
+    text-align: center;
+   /* background-image: linear-gradient(black, yellow);*/
+   margin-left: 10%;
+   margin-top: 150px;
+   background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    border-radius: 20px;
+    border: 2px solid rgb(255, 255, 254);
+    border: 2px solid black;
+    width: 75%;
+    height: 350pxpx;
+    box-sizing: border-box;
+    
+    
+   
+}
+.quistionair .quistion{
+    text-align: center;
+    border-radius: 20px;
+    border: 2px solid black;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: 50px;
+   
+
+}
+
+.quistionair .quistion:hover{
+    background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    
+
+}
+.quistionair .answers{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 20px;
+    text-decoration: dashed;
+    padding: 5px;
+    display: block;
+    cursor: pointer;
+    margin-top: 25px;
+}
+.button{ 
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin: 20px;
+}
+#score{
+   
+    color: white ;
+   
+    border-color: #DE7104;
+    border-radius: 10px;
+    margin-right: 5px;
+    height: 45px;
+    text-align: center;
+    font-weight: bold;
+    position: fixed;
+    width: 150px;
+    
+    
+    border-radius: 10px;
+    bottom: 10px;
+    right: 0;
+}
+
+#submit{
+   
+    color: #DE7104 ;
+    background-color: black;
+    border-color: #DE7104;
+    border-radius: 10px;
+    margin-right: 5px;
+    font-weight: bold;
+    font-size: 20px;
+    height: 45px;
+    position: fixed;                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+    width: 150px;
+    bottom: 70px;
+    right: 0px;
+}
+#submit:hover{
+    background-color: #474747;
+}
+
+#A1,#A2,#A3,#A4,#A5,#A6,#A7,#A8,#A9,#A10{
+    background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    color: #DE7104;
+    
+    border-radius: 20px;
+    height: 25px;
+    
+}
+
+div.creator3 {
+	margin-left:2%;
+}
+
+					/* < ----- Student Detail Styling -----> */	
+
+body.STDBody {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image:url("../F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+    margin: 0;
+    padding: 0;
+
+}
+
+.heading{
+    text-align: center;
+    font-size: large;
+    color: white;
+    margin-top: 30px;
+    background-image:url("../F5_Images/BG7.jpg");
+    padding: 10px;
+}
+
+
+
+.content{
+    width:1200px;
+    min-height:300px;
+    background-image:url("../F5_Images/BG7.jpg");
+    margin:100px auto 0;
+    display: flex;
+}
+
+.content .box{
+    position: relative;
+    width: 340px;
+    height:300px;
+    background: rgb(255, 255, 255);
+    margin: 25px ;
+    box-sizing: border-box;
+   /* display: inline-block;  */
+
+}
+
+.content .box .imgbox{
+    position: relative;
+   overflow: hidden; 
+}
+.content .box .imgbox img{
+    width: 250px;
+    height: 300px;
+    transition: transform 2s;
+}  
+.content .box:hover .imgbox img{
+    transform: scale(1.1);
+
+}
+.content .box .text{
+    position: absolute;
+    width: 220px;
+    height: 280px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    top: 10px;
+    background-image:url("../F5_Images/BG7.jpg");
+    transform:scaleY(0);
+    transition: transform  2s;
+}
+
+.content .box:hover .text{
+    transform: scaleY(1);
+
+}
+.content .box .text .info{
+    position: absolute;
+    top: 100px;
+    font-weight: bold;
+    color:rgb(192, 221, 24);
+    text-align: center;
+    
+}
+
+.content .box .text .info h2 {
+    color: white;
+    margin-left: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+.content .box .text .info p{
+    color: aliceblue;
+    margin-left:40px;
+}
+
+img.logoSTD {
+	margin-top:-45%;
+	margin-left:87%;
+}
+
+
+/* ---------- Page Developer link Styling ---------- */
+			
+a.pageDeveloperLink:link {
+	border:2px solid black;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:4px;
+}
+
+a.pageDeveloperLink:visited {
+	color:white;
+}
+
+a.pageDeveloperLink:hover {
+	background-color:#474747;
+}
+
+a.pageDeveloperLink:active {
+	color:yellow;
+}
+
+/* ---------- Back to top Styling ---------- */
+
+a.back_Top:link {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#DF7104;
+	text-decoration:none;
+	
+	padding-left:15px;
+}
+
+a.back_Top:visited {
+	color:#DF7104;
+}
+
+a.back_Top:hover {
+	color:yellow;
+}

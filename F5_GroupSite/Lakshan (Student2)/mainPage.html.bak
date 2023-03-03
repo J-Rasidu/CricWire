@@ -1,0 +1,31 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="F5_S2.css">
+    </head>
+    <body class="homeBody">
+        <header>
+            <img src="../F5_Images/CW_Logo4.png" class="logo" alt="logo" width="10%" height="10%">
+            <nav>
+                <ul class="navpages">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../Rasidu (Student1)/buyProduct.html"><abbr title="Products Page:<br>This page will allow you to buy products.">Products</abbr></a></li>
+                    <li><a href="../Lakshan (Student2)/queryForm.html">Form</a></li>
+                    <li><a href="../Rashid (Student3)/quiz.html">Quiz</a></li>
+                    <li><a href="../Yusuf (Student4)/SVG.html">SVG</a></li>
+					<li><a href="../Yusuf (Student4)/thumbnail.html">Thumbnails</a></li>
+                </ul>
+            </nav>
+            <a class="cta" href="../Rashid (Student3)/img.html"><button class="contactButton">Students</button></a>
+        </header>
+		
+		<div class="texthomepage">
+            <h1>Learn The Game</h1>
+            <p>Find out more about the world class game known as Cricket</p>
+            <div id="line"><a href="https://www.espncricinfo.com/live-cricket-score" target="_blank"><input type="button" id="homebutton" value="Live match" ></a></div>         
+        </div>
+		
+		<<div class="allStudentHome">
+			<h3><a href="../Rashid (Student3)/img.html" class="pageDeveloperLink">Page Developer</a></h3>
+		</div>
+    </body>
+</html>

@@ -1,0 +1,364 @@
+
+					/* < -----  Navigation Bar & Main Page Styling -----> */
+					
+
+/* ---------- NAV Bar Styling ---------- */
+
+* {
+	font-family: sans-serif;
+}
+#heading {
+	text-align: center;
+
+}
+
+.logo {
+	cursor: pointer;
+	margin-right: auto;
+}
+
+li, a, button {
+	font-weight: 700;
+	font-size: 1em;
+	color: #ecf0f1;
+	text-decoration: none;
+}
+
+header {
+	border:3px inset red;
+	border-radius:5px;
+	
+	background-image: url("./F5_Images/BG1.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1.875em 10%;
+	
+	 
+}
+
+.navpages {
+	list-style: none;
+}
+
+.navpages li:last-of-type{
+	margin-right: 1em;
+	border-right: 0.25em solid white;
+	height: 1.375em; 
+}
+
+.navpages li{
+	display: inline-block;
+	padding: 0px 1.75em;
+	border-left: 0.25em solid white;
+	height: 1.375em;
+}
+
+.navpages li a {
+	transition: 0.3s ease 0s;
+}
+
+.navpages li a:hover {
+	color: #DF7104;
+}
+
+button {
+	padding: 0.5625em 1.5625em;
+	background-color: #444444;
+	border: none;
+	border-radius: 3.125em;
+	cursor: pointer;
+	transition: 0.3s ease 0s;
+	
+}
+
+button:hover {
+	color:#444444;
+	background-color: gray;
+}
+
+/* ---------- Main Page Styling ---------- */
+
+body.homeBody {
+	background-image:url("./F5_Images/CR3.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+
+div.allStudentHome {
+	margin-top:31%;
+	margin-left:2%;
+}
+
+
+					/* < -----  Additional Content Page Styling -----> */
+					
+body.contentBody {
+	background-image:url("F5_Images/BG7.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+
+#ACP_Topic {
+	margin-top:2%;
+	color:white;
+	font-family:Arial;
+	text-align:center;
+}
+
+#team {
+	margin-left:14%;
+	border-radius:10px;
+}
+
+/* ------ Common Styles ------ */
+input.SLC , input.INC , input.NZC , input.PAC , input.ENC , input.SAC , input.AFC , input.BAC , input.AUC , input.WIC {
+	border:4px inset white;
+	border-radius:10px;
+	height:125px;
+	width:700px;
+	
+	font-family:Arial;
+	font-size:30px;
+	font-weight:bold;	
+}
+
+input.SLC:hover , input.INC:hover , input.NZC:hover , input.PAC:hover , input.ENC:hover , input.SAC:hover , input.AFC:hover , input.BAC:hover , input.AUC:hover , input.WIC:hover {
+	transition:1.75s;
+	transform:scale(1.05);	
+}
+
+#SL_Details , #IN_Details , #NZ_Details , #PA_Details , #EN_Details , #SA_Details , #AF_Details , #BA_Details , #AU_Details , #WI_Details {
+	font-family:Arial;
+	font-weight:bold;
+	color:white;
+	text-align:center;
+	
+	margin-left:2.5%;
+	margin-right:2.5%;
+}
+
+/* ------ SriLanka Styles ------ */
+input.SLC {
+	background-image:url("F5_Images/SL.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#ebb204;
+	-webkit-text-stroke:1.5px blue;
+}
+
+#SriLanka {
+	margin-top:2.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ India Styles ------ */
+input.INC {
+	background-image:url("F5_Images/IN.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#f67e00;
+	-webkit-text-stroke:1.5px #3d85c6;
+}
+
+#India {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Pakistan Styles ------ */
+input.PAC {
+	background-image:url("F5_Images/PA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#38761d;
+	-webkit-text-stroke:2px #8fce00;
+}
+
+#Pakistan {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ England Styles ------ */
+input.ENC {
+	background-image:url("F5_Images/EN.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:gray;
+	-webkit-text-stroke:1.5px aqua;
+}
+
+#England {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ South Africa Styles ------ */
+input.SAC {
+	background-image:url("F5_Images/SA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:yellow;
+	-webkit-text-stroke:2px #38761d;
+}
+
+#South_Africa {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Afghanistan Styles ------ */
+input.AFC {
+	background-image:url("F5_Images/AF.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:blue;
+	-webkit-text-stroke:1px white;
+}
+
+#Afghanistan {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Bangladesh Styles ------ */
+input.BAC {
+	background-image:url("F5_Images/BA.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:red;
+	-webkit-text-stroke:2px #990000;
+}
+
+#Bangladesh {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ Australia Styles ------ */
+input.AUC {
+	background-image:url("F5_Images/AU.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:yellow;
+	-webkit-text-stroke:1.5px #bf9000;
+}
+
+#Australia {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ West Indies Styles ------ */
+input.WIC {
+	background-image:url("F5_Images/WI.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:#f1c232;
+	-webkit-text-stroke:2px #744700;
+}
+
+#West_Indies {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+/* ------ New Zealand Styles ------ */
+input.NZC {
+	background-image:url("F5_Images/NZ.jpg");
+	background-size:cover;
+	background-repeat:no-repeat;
+	
+	color:black;
+	-webkit-text-stroke:1.5px gray;
+}
+
+#New_Zealand {
+	margin-top:0.5%;
+	margin-left:22%;
+	margin-right:22%;
+}
+
+p.achievement {
+	color:#fa7516;
+}
+
+p.failure {
+	color:red;
+}
+
+div.backToTop {
+	margin-left:2%;
+}
+
+div.allStudentContent {
+	margin-top:-2.5%;
+	margin-left:84%;
+}
+					
+
+/* ---------- Page Developer link Styling ---------- */
+			
+a.pageDeveloperLink:link {
+	border:2px solid black;
+	border-radius:10px;
+	text-align:center;
+	text-decoration:none;
+	color:white;
+	background-color:black;
+	padding:4px;
+}
+
+a.pageDeveloperLink:visited {
+	color:white;
+}
+
+a.pageDeveloperLink:hover {
+	background-color:#474747;
+}
+
+a.pageDeveloperLink:active {
+	color:yellow;
+}
+
+/* ---------- Back to top Styling ---------- */
+
+a.back_Top:link {
+	font-family:Arial;
+	font-weight:bold;
+	font-size:18px;
+	color:#DF7104;
+	text-decoration:none;
+	
+	padding-left:15px;
+}
+
+a.back_Top:visited {
+	color:#DF7104;
+}
+
+a.back_Top:hover {
+	color:yellow;
+}
